@@ -19,6 +19,3 @@ We hypothesis the following:
 1.	Sets with higher entropy will lead to higher uncertainty in estimating the probability of winning. This is akin to adding noise to the stimuli. Participants will therefore begin ignoring symbolic icons when the information they provide becomes uncertain. The point at which this occurs will differ for each set.
 2.	In the analysis of EEG, the CPP component amplitude will more closely track subjective confidence reports of stimulus uncertainty than objective stimulus uncertainty which will be predictive of a close relationship between the neural correlates of evidence accumulation and conscious awareness (Tagliabue et al., 2019, 2018) 
 3.	The neural representations of the symbolic and experiential icons will be qualitatively different, while those between the various sets of symbolic icons will only differ quantitatively as a function of entropy.
-
-I received funding from the University of Aberdeen for this study and am conducting the experiment under supevision of Dr. Rama Chakravarthi.
-I thank Colin Ries who coded the pie-chart function for this experiment (https://github.com/RieCo432).
