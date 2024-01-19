@@ -167,13 +167,7 @@ for block = 1:3
     selectedProbabilitiesFromFirstPartTEST(block, 1) = chosenProbabilityArrayTEST(1);
     selectedProbabilitiesFromFirstPartTEST(block, 2) = chosenProbabilityArrayTEST(2);
 
-    %this here is difficult, but works like this: We create arrays of ones
-    %and minus oens that occur in number accoridng to the given probability
-    %array and its complement P'. Then, the horzcat will horizontally
-    %concatenate these and the randomized selection procedure is gnereated
-    %through the shuffle function. We assesss the number of trials where
-    %the outcome is minus one and the number of trials where the outcome
-    %is one.
+    
     outcomes1TEST1 = Shuffle(horzcat(-1 * ones(1, int32(trialsInBlockTEST1 * (1 - chosenProbabilityArrayTEST(1)))), ones(1, int32(trialsInBlockTEST1 * chosenProbabilityArrayTEST(1)))));
     outcomes2TEST1 = Shuffle(horzcat(-1 * ones(1, int32(trialsInBlockTEST1 * (1 - chosenProbabilityArrayTEST(2)))), ones(1, int32(trialsInBlockTEST1 * chosenProbabilityArrayTEST(2)))));
 
